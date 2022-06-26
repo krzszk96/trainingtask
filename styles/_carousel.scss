@@ -15,12 +15,14 @@
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;  
-  animation-name: opacity_in;
-  animation-duration: 1s;
+  left: 0;    
+  transition: opacity 1s;
 }
-#slide2, #slide3{
-  display: none;  
+.sliding{
+  opacity: 1;  
+}
+#slide2, #slide3{ 
+  opacity: 0;
 }
 
 .img-dimmer{

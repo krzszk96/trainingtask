@@ -234,14 +234,16 @@ nav .container ul li:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation-name: opacity_in;
-          animation-name: opacity_in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.sliding {
+  opacity: 1;
 }
 
 #slide2, #slide3 {
-  display: none;
+  opacity: 0;
 }
 
 .img-dimmer {

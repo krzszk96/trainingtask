@@ -1,0 +1,13 @@
+.about-container .about-more-btn,
+.container-bottom .bottom-more-btn{
+  border: 1px solid $text-color-2;
+  padding: 10px 30px;
+  background-color: transparent;
+  cursor: pointer;
+  color: $text-color-2;
+
+  &:hover{
+    background-color: $btn-hover-color;
+    box-shadow: 5px 5px 0px 0px rgba(170, 170, 170, 1);
+  }
+}

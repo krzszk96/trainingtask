@@ -26,7 +26,6 @@ nav_buttons_cont.addEventListener('click', (e)=>{
       document.getElementById('slide1').style.opacity = '1'
       document.getElementById('slide1').classList.add('sliding')
       document.getElementById('carousel_btn_1').classList.add('active-slide')  
-      
 
       setTimeout(() => {
         document.getElementById(last_clicked).style.opacity = '0'
@@ -38,7 +37,7 @@ nav_buttons_cont.addEventListener('click', (e)=>{
       document.getElementById('slide2').style.opacity = '1'
       document.getElementById('slide2').classList.add('sliding')
       document.getElementById('carousel_btn_2').classList.add('active-slide')
-       
+
       setTimeout(() => {
         document.getElementById(last_clicked).style.opacity = '0'
         last_clicked = 'slide2'

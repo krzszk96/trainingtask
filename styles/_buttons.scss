@@ -11,3 +11,14 @@
     box-shadow: 5px 5px 0px 0px rgba(170, 170, 170, 1);
   }
 }
+.image-gallery .img-text-wrap .img-more-btn{
+  background-color: transparent;
+  border: 1px solid $text-color-1;
+  color: $text-color-1;
+  padding: 7px 30px;
+  cursor: pointer;
+
+  &:hover{
+    box-shadow: 5px 5px 0px 0px rgba(238, 28, 37, 1);
+  }
+}

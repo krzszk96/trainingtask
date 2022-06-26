@@ -22,3 +22,21 @@
     box-shadow: 5px 5px 0px 0px rgba(238, 28, 37, 1);
   }
 }
+.nav-buttons{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-buttons .carousel-btn{
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  border: none;
+  margin: 0 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.nav-buttons .active-slide{
+  opacity: 1 ;
+}
